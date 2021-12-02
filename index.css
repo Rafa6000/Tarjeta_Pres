@@ -12,6 +12,7 @@
 }
 
 body {
+    width: 400px;
     padding: 20px;
     display: grid;
     place-items: center;
@@ -179,4 +180,10 @@ body {
 .img img {
     height: 150px ;
     border-radius: 50% ;
+}
+
+@media screen and (min-whidth: 800px){
+    body{
+        background-color: lawngreen;
+    }
 }
